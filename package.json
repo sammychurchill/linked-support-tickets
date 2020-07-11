@@ -10,6 +10,7 @@
     "build:package": "npm-run-all build package",
     "watch": "webpack --config webpack.dev.js",
     "serve": "zat server --path dist -c settings.json",
+    "python": "python3 -m http.server --directory dist/assets",
     "bserve": "webpack --config webpack.dev.js && zat server --path dist -c settings.json",
     "test": "jest"
   },
