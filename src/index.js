@@ -6,7 +6,7 @@ import { ThemeProvider } from "@zendeskgarden/react-theming";
 
 ReactDOM.render(
   <ThemeProvider>
-    <App />
+    <App rootEl={document.getElementById("root")} />
   </ThemeProvider>,
   document.getElementById("root")
 );

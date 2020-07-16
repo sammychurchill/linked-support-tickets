@@ -1,9 +1,9 @@
 {
-  "name": "Zendesk React App Boilerplate",
+  "name": "Create New Ticket",
   "author": {
-    "name": "Mathias V. Nielsen",
-    "email": "mn@cloudhuset.dk",
-    "url": "https://cloudhuset.dk"
+    "name": "Sam Churchill",
+    "email": "sam.chuhrchill@loke.com.au",
+    "url": "https://loke.global"
   },
   "defaultLocale": "en",
   "private": true,

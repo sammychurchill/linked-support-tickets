@@ -1,6 +1,5 @@
 {
   "app": {
-    "description": "This is a Boilerplate for React Apps in Zendesk Support",
-    "name": "Zendesk React App Boilerplate"
+    "name": "Submit New Ticket"
   }
 }

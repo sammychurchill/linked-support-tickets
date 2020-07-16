@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
   context: __dirname,
@@ -10,6 +11,9 @@ module.exports = {
   output: {
     path: path.resolve("dist", "assets"),
     filename: "bundle.js",
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
   },
   module: {
     rules: [
@@ -60,6 +64,9 @@ module.exports = {
       template: path.resolve(__dirname, "src/index.html"),
       filename: "index.html",
       hash: true,
+    }),
+    new webpack.ProvidePlugin({
+      React: "react",
     }),
   ],
 };
